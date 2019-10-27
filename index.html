@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API REST Client - YESICA VEGA</title>
+  </head>
+  <body>
+      <h1>Prueba para consumir API de MercadoLibre</h1>
+      <form action="/action_page.php">
+        <h2>Ingrese SiteID</h2>
+        ID Sitio: <input type="text" id="siteId" value="MLA"><br>
+        <h2>Ingrese IDseller</h2>
+        ID Vendedor: <input type="text" id="sellerId" value="81644614"><br>
+        <input type="button" value="Consultar API" onclick="callMerecadoLibreAPI()">
+        <div id="MELI"></div>
+        <script src="scripts.js"></script>
+      </form>
+  </body>
+</html>
